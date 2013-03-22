@@ -12,16 +12,16 @@ InputEngineClass = Class.extend({
         //-----------------------------
         setup: function () {
                 //move key bindings
-                gInputEngine.bind(87, 'move-up');
-                gInputEngine.bind(65, 'move-left');
-                gInputEngine.bind(83, 'move-down');
-                gInputEngine.bind(68, 'move-right');
+                gInputEngine.bind(87, 'look-up');
+                gInputEngine.bind(65, 'look-left');
+                gInputEngine.bind(83, 'look-down');
+                gInputEngine.bind(68, 'look-right');
 
                 //fire key bindings
-                gInputEngine.bind(81,'powerup-use');  //Q
-                gInputEngine.bind(69,'fire-superWeapon');  //E
+//                gInputEngine.bind(81,'powerup-use');  //Q
+//                gInputEngine.bind(69,'fire-superWeapon');  //E
                 gInputEngine.bind(32,'fire-prmary');  //Space
-                gInputEngine.bind(16,'fire-missile');  //Shift   Ascii code=0 key code=16
+//                gInputEngine.bind(16,'fire-missile');  //Shift   Ascii code=0 key code=16
 
 
                 //event listeners
